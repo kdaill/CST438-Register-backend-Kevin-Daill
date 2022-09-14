@@ -3,6 +3,7 @@ package com.cst438.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cst438.domain.Student;
 import com.cst438.domain.StudentRepository;
 
 @RestController
@@ -19,6 +20,65 @@ public class StudentController {
 //		
 //	}
 //	
+	
+	
+//	
+//	private Student createStudent(Student e){
+//		Student student = new Student();
+//		Student s = e.getStudent();
+//		student.student_id = s.getStudent_id();
+//		student.name = s.getName();
+//		student.email = s.getEmail();
+//		student.status = s.getStatus();
+//		student.status_code = s.getStatusCode();
+//		return student;
+//	}
+	
+	
+	
+	
+//	private ScheduleDTO.CourseDTO createCourseDTO(Enrollment e) {
+//	ScheduleDTO.CourseDTO courseDTO = new ScheduleDTO.CourseDTO();
+//	Course c = e.getCourse();
+//	courseDTO.id = e.getEnrollment_id();
+//	courseDTO.building = c.getBuilding();
+//	courseDTO.course_id = c.getCourse_id();
+//	courseDTO.endDate = c.getEnd().toString();
+//	courseDTO.instructor = c.getInstructor();
+//	courseDTO.room = c.getRoom();
+//	courseDTO.section = c.getSection();
+//	courseDTO.startDate = c.getStart().toString();
+//	courseDTO.times = c.getTimes();
+//	courseDTO.title = c.getTitle();
+//	courseDTO.grade = e.getCourseGrade();
+//	return courseDTO;
+//}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
