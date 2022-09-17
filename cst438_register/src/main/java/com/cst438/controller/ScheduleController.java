@@ -62,7 +62,6 @@ public class ScheduleController {
 			throw  new ResponseStatusException( HttpStatus.BAD_REQUEST, "Student not found. " );
 		}
 	}
-	
 
 	
 	@PostMapping("/schedule")

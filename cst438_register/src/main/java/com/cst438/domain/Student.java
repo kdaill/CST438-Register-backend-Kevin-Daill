@@ -23,6 +23,7 @@ public class Student {
 	public int getStudent_id() {
 		return student_id;
 	}
+
 	public void setStudent_id(int student_id) {
 		this.student_id = student_id;
 	}
@@ -55,5 +56,7 @@ public class Student {
 		return "Student [student_id=" + student_id + ", name=" + name + ", email=" + email + ", statusCode="
 				+ statusCode + ", status=" + status + "]";
 	}
+
+	
 
 }
