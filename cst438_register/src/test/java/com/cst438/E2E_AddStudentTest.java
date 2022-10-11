@@ -21,8 +21,6 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import com.cst438.domain.Student;
 import com.cst438.domain.StudentDTO;
 
-
-
 public class E2E_AddStudentTest {
 
 	public static final String CHROME_DRIVER_FILE_LOCATION = "C:/chromedriver_win32/chromedriver.exe";
@@ -30,7 +28,7 @@ public class E2E_AddStudentTest {
 	public static final String ALIAS_NAME = "test";
 	public static final int SLEEP_DURATION = 1000; // 1000 is equivalent to 1 second
 	
-	
+
 	@Test
 	public void addStudentSuccess() throws Exception{
 		// set the driver location and start driver
